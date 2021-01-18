@@ -1,1 +1,1 @@
-# Github Network_Analysis
+# GitHub Social Network Analysis
