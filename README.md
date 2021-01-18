@@ -6,24 +6,18 @@ Dec, 2020
 
 **Network description**:
 
-A large social network of GitHub developers which was collected from the public API in June 2019. Nodes are developers who have starred at least 10 repositories and edges are mutual follower relationships between them. 
+A large social network of GitHub developers which was collected from the public API in June 2019. Nodes are developers who have starred at least 10 repositories and edges are mutual follower relationships between them. Github user is either a web or a machine learning developer (binary classification: 0 and 1). This target feature was derived from the job title of each user.
 
 Properties (from project website):
-
 - Undirected graph
-- Node features: Yes.
-- Edge features: No.
-- Node labels: Yes. Binary-labeled.
+- Node labels: Yes. Binary-labeled
 - Nodes: 37,700
 - Edges: 289,003
-- Density: 0.001
-- Transitvity: 0.013
-
 
 Source: https://snap.stanford.edu/data/github-social.html
 
 
-**Analysis**:
+**Analysis includes**:
 - Dataset import and preprocessing
 - Degree Analysis
 - ECDF and ECCDF
