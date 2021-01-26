@@ -27,3 +27,4 @@ Source: https://snap.stanford.edu/data/github-social.html
 - Centrality
 - Assortativity
 - Community detection
+- Network visualization with Gephi
